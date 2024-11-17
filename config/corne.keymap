@@ -13,6 +13,9 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+        &sl {
+            release-after-ms = <2000>;
+        }
     };
 
     keymap {
