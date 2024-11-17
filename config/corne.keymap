@@ -13,7 +13,7 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-        &sl {
+        sl {
             release-after-ms = <2000>;
         }
     };
